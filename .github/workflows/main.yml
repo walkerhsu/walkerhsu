@@ -18,7 +18,5 @@ jobs:
         with:
           token: ${{ secrets.METRIC_PAT }}
           template: repository
-          user: walkerhsu
-          repo: metrics
           plugin_starlists: yes
           plugin_starlists_limit_repositories: 3
